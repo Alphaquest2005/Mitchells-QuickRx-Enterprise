@@ -52,6 +52,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalesRegion", "Regions\Sale
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickSalesTests", "QuickSalesTests\QuickSalesTests.csproj", "{212A3F17-70AE-4E46-992B-204B94D27445}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{36E04035-1C88-4881-BDEA-85C786E19FF6}"
+	ProjectSection(SolutionItems) = preProject
+		Mitchells-QuickSales-Enterprise.bak = Mitchells-QuickSales-Enterprise.bak
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -204,7 +209,7 @@ Global
 		{9B2403FE-7ECE-495D-97D9-20560121A2EE} = {9BEF54D4-9E56-4B84-9F2F-3E275F641C1E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {C5E2CD27-B835-4A54-A4E2-27DBF5ECFC9A}
 		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.0\lib\NET35
+		SolutionGuid = {C5E2CD27-B835-4A54-A4E2-27DBF5ECFC9A}
 	EndGlobalSection
 EndGlobal
